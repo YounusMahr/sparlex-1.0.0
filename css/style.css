@@ -24,6 +24,71 @@
 
 
 
+
+
+/* --------- docter-section --------------- */
+.spa-beauty-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background: linear-gradient(to right, #be9f6a, #684918);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 3rem 6rem;
+    margin-bottom: 8rem;
+}
+
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.content h5 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #5f2809;
+}
+
+.image {
+    text-align: right;
+}
+
+.image img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .spa-beauty-section {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .image img {
+        width: 80%;
+    }
+}
+
+
 /* --------- murquee --------------- */
 
 .marquee {
