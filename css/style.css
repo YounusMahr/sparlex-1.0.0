@@ -31,7 +31,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    background: linear-gradient(to right, #be9f6a, #684918);
+    background: linear-gradient(to right, #ffc766, #ffa632);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     padding: 3rem 6rem;
