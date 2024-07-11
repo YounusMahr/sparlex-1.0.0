@@ -66,6 +66,10 @@
     text-align: right;
 }
 
+.image-2{
+    text-align: left;
+}
+
 .image img {
     width: 50%;
     object-fit: cover;
